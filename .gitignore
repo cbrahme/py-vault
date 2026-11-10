@@ -1,0 +1,30 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# PyVault Security (Never commit vaults or local preferences)
+*.enc
+*.enc.*
+*.tmp
+preferences.json
+
+# macOS
+.DS_Store
+
+# Android & Gradle
+.gradle/
+build/
+app/build/
+downloads/
+*.apk
+*.aab
+local.properties
+.idea/
+*.iml
+
+# macOS App Bundle artifacts
+PyVault.iconset/
+PyVault.app/
+PyVault_bin
